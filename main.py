@@ -3,11 +3,11 @@ import sys
 
 class num_teacher:
     def __init__(self):
-        self.french_nums = ['zero', 'un', 'deux', 'trois', 'quatre', 'cinque', 'six', 'sept', 'huit', 'neuf',
+        self.french_nums = ['zero', 'un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf',
                        'dix', 'onze', 'douze', 'treize', 'quatorze', 'quinze', 'seize', 'dix-sept',
                        'dix-huit', 'dix-neuf']
 
-        self.french_tens = ['zero', 'dix', 'vingt', 'trante', 'quatrante', 'cinquante', 'soixante',
+        self.french_tens = ['zero', 'dix', 'vingt', 'trente', 'quarante', 'cinquante', 'soixante',
                             'soixante-dix', 'quatrante-vingt', 'quatrante-vingt-dix']
 
         self.state = 'GET_RANGE'
